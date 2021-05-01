@@ -22,3 +22,4 @@ int main() {
 	}
 	cout << max(dp[n][0],dp[n][1]);
 }
+//계단 오르기

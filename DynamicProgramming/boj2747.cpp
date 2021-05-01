@@ -11,3 +11,4 @@ int main() {
 		fib[i] = fib[i-1] + fib[i-2];
 	cout << fib[n];
 }
+//피보나치 수

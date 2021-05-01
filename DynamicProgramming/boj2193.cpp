@@ -14,3 +14,4 @@ int main() {
 	}
 	cout << dp[n];
 }
+//이친수
