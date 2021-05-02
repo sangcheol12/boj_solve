@@ -15,11 +15,11 @@ int main() {
 	for(int i=0; i<n; i++) {
 		dp[i] = 1;
 		for(int j=0; j<i; j++) {
-			if(num[j] < num[i])
+			if(num[i] < num[j])
 				dp[i] = max(dp[i],dp[j]+1);
 		}
 		res = max(res,dp[i]);
 	}
-	cout << res;
+	cout << res << '\n';
 }
-//가장 긴 증가하는 부분 순열
+//가장 긴 감소하는 부분 순열
