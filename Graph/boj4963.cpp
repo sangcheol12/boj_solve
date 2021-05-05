@@ -45,3 +45,4 @@ int main() {
 		memset(visited,0,sizeof(visited));
 	}
 }
+//섬의 개수
