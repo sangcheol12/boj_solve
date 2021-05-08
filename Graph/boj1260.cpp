@@ -56,3 +56,4 @@ int main() {
 	memset(visited,0,sizeof(visited));
 	bfs(st);
 }
+//DFS와 BFS
